@@ -21,13 +21,13 @@ const Navbar = () => {
         </NavLink>
       </div>
       <div className={s.item}>
-        <a href="">News</a>
+        <a href="www.instagram.com">News</a>
       </div>
       <div className={s.item}>
         <NavLink to="/music">Music</NavLink>
       </div>
       <div className={s.item}>
-        <a href="">Settings</a>
+        <a href="www.instagram.com">Settings</a>
       </div>
     </nav>
   );

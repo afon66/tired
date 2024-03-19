@@ -17,7 +17,7 @@ const Profile = () => {
     }
     dispatch(getProfile(userId));
     dispatch(getStatus(userId));
-  }, [userId, dispatch]);
+  }, [ dispatch]);
   return (
     <div>
       <ProfileInfo />
