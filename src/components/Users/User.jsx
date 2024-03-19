@@ -19,6 +19,7 @@ let User = ({ u }) => {
               <img
                 src={u.photos.small != null ? u.photos.small : userPhoto}
                 className={styles.userPhoto}
+                alt=""
               />
             </NavLink>
           </div>

@@ -9,7 +9,7 @@ const Preloader = () => {
 
   return (
     <div className={s.preloader}>
-      {isFetching ? <img src={preloader} /> : null}
+      {isFetching ? <img src={preloader} alt=""/> : null}
     </div>
   );
 };
