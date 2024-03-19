@@ -1,0 +1,25 @@
+.header {
+    grid-area: h;
+    background-color: green;
+}
+
+.header img {
+    width: 20px;
+}
+
+.loginWrapper a{
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+  padding-right: 30px;
+  margin-top: -7px;
+}
+
+.logout {
+  display: flex;
+  justify-content: end;
+}
+
+

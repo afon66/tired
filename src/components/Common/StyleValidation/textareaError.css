@@ -1,0 +1,4 @@
+.errorRed {
+  outline: solid 2px red !important;
+  border-radius: 5px;
+}
